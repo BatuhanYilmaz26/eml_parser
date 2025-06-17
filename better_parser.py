@@ -136,7 +136,7 @@ def convert_df_to_excel_bytes(df):
 
 st.set_page_config(page_title="EML to Excel Parser", page_icon="📧", layout="wide")
 
-st.title("📧 EML File to Excel Analyzer")
+st.title("📧 EML File to Excel Parser")
 st.markdown("Upload one or more `.eml` files. The app will parse the key information and let you download it as a single `.xlsx` file.")
 
 uploaded_files = st.file_uploader(
