@@ -192,4 +192,4 @@ else:
     st.info("Waiting for you to upload file(s).")
 
 st.markdown("---")
-st.write("Created with ❤️ by BatuhanYilmaz")
+st.write("Made with ❤️ by BatuhanYilmaz")
