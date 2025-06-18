@@ -165,7 +165,7 @@ if uploaded_files: # Check if the list is not empty
                 # Concatenate all DataFrames into a single DataFrame
                 combined_df = pd.concat(all_dfs, ignore_index=True)
                 
-                st.success(f"✅ {len(uploaded_files)} email(s) analyzed successfully!")
+                st.success(f"✅ {len(uploaded_files)} email(s) parsed successfully!")
                 
                 # Display the combined DataFrame
                 st.subheader("Parsed Email Data (Combined)")
